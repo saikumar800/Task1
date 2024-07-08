@@ -1,0 +1,122 @@
+body {
+    background-image: url('./image.png');
+    background-size: cover; /* Ensure the background image covers the entire background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: beige;
+    
+}
+
+#navbar {
+    height: 50px;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(10, 34, 6, 1) 60%, rgba(0, 212, 255, 1) 100%);
+    display: flex; /* Use flexbox to center items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 30px;
+    
+}
+
+#navbar a {
+    color: white;
+    font-size: 30px; /* Adjust font size for better fit */
+    text-decoration: none;
+    padding: 30px 40px; /* Adjust padding */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#navbar a:hover {
+    background-color: rgb(38, 72, 31);
+    transform: scale(1.2); /* Scale to a reasonable size */
+}
+#im img {
+    margin-top: 40px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+#im h1{
+    margin-left: 140px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.section {
+    display: none;
+    padding: 20px;
+}
+
+.section:target {
+    display: block;
+    margin-top: 20px; /* Adjust as needed */
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+}
+#about p{
+
+font-size: 20px;
+
+
+}
+#projects h3{
+    color: black;
+    
+}
+#contact{
+    background: linear-gradient(110.8deg, rgb(86, 238, 225) 11.4%, rgb(176, 255, 39) 84.5%);
+    height: 300px;
+    width: 400px;
+    border-radius: 40px;
+  margin-left: 500px;
+  margin-top: 100px;
+  color: black;
+
+}
+#contact h2{
+    text-align: center;
+    color: rgb(27, 25, 25);
+
+}
+#contact ul li{
+    padding:20px;
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+
+
+}
+#about{
+    background: linear-gradient(109.6deg, rgb(0, 37, 84) 11.2%, rgba(0, 37, 84, 0.32) 100.2%);
+border-radius: 30px;
+}
+#about
+#Projects{
+    background: linear-gradient(109.6deg, rgb(251, 250, 225) 11.2%, rgb(206, 240, 185) 47.5%, rgb(100, 163, 111) 100.2%);
+
+color: rgb(33, 32, 32);}
+.about-content {
+    line-height:2.0; /* Adjust this value to increase/decrease line spacing */
+    margin: 20px;
+} 
+
+#about h2{
+    text-align: center;
+    font-size: 40px;
+}
+.pro-cont{
+    line-height:2.0; /* Adjust this value to increase/decrease line spacing */
+    margin: 20px;
+}
+#Home-content{
+    width: 300px;
+    height: 400px;
+    line-height:2.0;
+    background: linear-gradient(135deg, rgb(255, 168, 168) 10%, rgb(252, 255, 0) 100%);
+   border-radius: 20px;
+   position:absolute;
+  left: 700px;
+  top: 200px;
+  padding: 50px;
+  color: black;
+  box-shadow:30px 30px 30px rgb(20, 20, 20);
+  
+}
